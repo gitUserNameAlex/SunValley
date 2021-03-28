@@ -20,9 +20,9 @@
 }
 
 .trip-content {
-    height: 188px;
+    height: 220px;
     background: #001E6B;
-    padding-top: 20px;
+    padding-top: 8px;
 }
 
 .gray-trip {
@@ -33,30 +33,30 @@
 
 .gray-text {
     color: #fff;
-    font-size: 10px;
-    padding: 3px;
+    font-size: 12px;
+    padding: 5px;
 }
 
 .first-txt {
     width: 351px;
-    height: 38px;
+    height: 50px;
 }
 
 .second-txt {
     width: 341px;
-    height: 49px;
+    height: 69px;
 }
 
 .third-txt {
     width: 326px;
-    height: 37px;
+    height: 51px;
 }
 
 .trip-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 22px;
+    margin-top: 80px;
 }
 
 @media (min-width: 0px) and (max-width: 359px) {

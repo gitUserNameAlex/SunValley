@@ -91,9 +91,10 @@ header {
 /* элементы меню */
 .menu__item {
     display: block;
-    padding: 4px 16px;
+    padding: 8px 16px;
     color: #fff;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .menu__item:hover {
@@ -132,6 +133,16 @@ header {
     color: #3700AD;
     height: 1px;
     width: 90%;
+}
+
+@media (min-width: 0px) and (max-width: 359px) {
+    .menu__item {
+        display: block;
+        padding: 4px 16px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
