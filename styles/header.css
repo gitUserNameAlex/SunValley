@@ -148,6 +148,14 @@ header {
         text-decoration: none;
         font-size: 14px;
     }
+
+    .menu__btn {
+        margin-left: 10px;
+    }
+
+    .header-icons {
+        margin-right: 10px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
