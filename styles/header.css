@@ -1,0 +1,152 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.6em);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 115px;
+    background: rgba(0, 42, 124, 1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-icons {
+    display: flex;
+    margin-top: 14px;
+}
+
+.header-icon {
+    padding-left: 5px;
+}
+
+.hamburger-menu {
+    z-index: 999;
+}
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+}
+
+/* стилизуем кнопку */
+.menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 15px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+/* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: left;
+    background: rgba(18, 24, 77, 1);
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+/* элементы меню */
+.menu__item {
+    display: block;
+    padding: 4px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    background-color: #fff;
+    color: rgba(18, 24, 77, 1);
+}
+
+/* OPEN/CLOSE */
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+  
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.header-logo {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.purple-line {
+    border: none;
+    background-color:#3700AD;
+    color: #3700AD;
+    height: 1px;
+    width: 90%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.header-icons {
+    display: flex;
+    margin-top: 18px;
+    margin-right: -60px;
+}
+    
+.header-icon {
+    padding-left: 15px;
+}
+
+.menu__btn {
+    top: 18px;
+    margin-left: -40px;
+}
+}

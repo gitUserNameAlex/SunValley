@@ -1,0 +1,29 @@
+.title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gradient-line {
+    background: linear-gradient(180deg, #A8AABF 0%, rgba(53, 70, 242, 0) 84.9%);
+    width: 122px;
+    height: 7px;
+}
+
+.center-title {
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 359px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}

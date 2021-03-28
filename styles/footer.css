@@ -1,0 +1,15 @@
+.footer {
+    background: rgba(0, 42, 124, 1);
+    height: 70px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.icon-footer {
+    margin: 5px;
+}

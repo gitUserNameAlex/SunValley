@@ -1,0 +1,134 @@
+.shedulde {
+    background: rgba(234, 242, 255, 1);
+    height: 380px;
+}
+
+.title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gradient-line {
+    background: linear-gradient(180deg, #A8AABF 0%, rgba(53, 70, 242, 0) 84.9%);
+    width: 122px;
+    height: 7px;
+}
+
+.center-title {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.trip {
+    height: 420px;
+}
+
+.trip-content {
+    height: 188px;
+    background: #001E6B;
+    padding-top: 20px;
+}
+
+.gray-trip {
+    background: #A8AABF;
+    border-radius: 6px;
+    margin-left: 14px;
+}
+
+.gray-text {
+    color: #fff;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.first-txt {
+    width: 351px;
+    height: 38px;
+}
+
+.second-txt {
+    width: 341px;
+    height: 49px;
+}
+
+.third-txt {
+    width: 326px;
+    height: 37px;
+}
+
+.trip-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+@media (min-width: 0px) and (max-width: 359px) {
+    .first-txt {
+        width: 280px;
+        height: 47px;
+    }
+    
+    .second-txt {
+        width: 265px;
+        height: 70px;
+    }
+    
+    .third-txt {
+        width: 230px;
+        height: 44px;
+    }
+    .trip-content {
+        height: 200px;
+        padding-top: 10px;
+    }
+    .trip-image__img {
+        width: 300px;
+        height: 93px;
+    }
+    .trip {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .first-txt {
+        width: 600px;
+        height: 47px;
+    }
+    
+    .second-txt {
+        width: 530px;
+        height: 70px;
+    }
+    
+    .third-txt {
+        width: 490px;
+        height: 44px;
+    }
+    .gray-text {
+        font-size: 15px;
+    }
+    .trip-content {
+        height: 235px;
+    }
+    .trip {
+        height: 500px;
+    }
+
+    .trip-image__img {
+        width: 400px;
+        height: 124px;
+        margin-top: 15px;
+    }
+
+    .gradient-line {
+        width: 280px;
+        height: 10px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+}
