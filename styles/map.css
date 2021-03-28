@@ -18,7 +18,7 @@
 .map {
     text-align: center;
     margin: 0 auto;
-    height: 640px;
+    height: 610px;
 }
 
 .small {
@@ -36,6 +36,10 @@
 .medium-map {
     width: 360px;
     height: 252px;
+}
+
+.footer {
+    margin-top: 100px;
 }
 
 @media (min-width: 0px) and (max-width: 359px) {
