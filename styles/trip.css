@@ -59,6 +59,11 @@
     margin-top: 80px;
 }
 
+.trip-image__img {
+    width: 400px;
+    height: 124px;
+}
+
 @media (min-width: 0px) and (max-width: 359px) {
     .first-txt {
         width: 280px;

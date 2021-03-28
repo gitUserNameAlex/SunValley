@@ -33,6 +33,11 @@
     margin-top: 100px;
 }
 
+.medium-map {
+    width: 360px;
+    height: 252px;
+}
+
 @media (min-width: 0px) and (max-width: 359px) {
     .medium {
         display: none;
@@ -41,6 +46,11 @@
     .small {
         display: block;
         margin-top: 100px;
+    }
+
+    .small-map {
+        height: 203px;
+        width: 290px;
     }
 }
 
@@ -62,6 +72,11 @@
     .large {
         margin-top: 100px;
         display: block;
+    }
+
+    .large-map {
+        width: 600px;
+        height: 420px;
     }
 
     .map {

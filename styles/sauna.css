@@ -64,6 +64,11 @@
     margin-top: 40px;
 }
 
+.sauna-image {
+    width: 150px;
+    height: 200px;
+}
+
 .sauna-order {
     text-align: center;
     margin: 0 auto;

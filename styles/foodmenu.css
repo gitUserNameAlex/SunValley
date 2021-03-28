@@ -108,6 +108,8 @@
 
 .tortuga-image {
     margin-top: 40px;
+    width: 300px;
+    height: 212px;
 }
 
 @media (min-width: 0px) and (max-width: 359px) {

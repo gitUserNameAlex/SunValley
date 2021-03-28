@@ -56,6 +56,11 @@
     height: 600px;
 }
 
+.animation-image__img {
+    width: 160px;
+    height: 197px;
+}
+
 @media (min-width: 0px) and (max-width: 359px) {
     .animation {
         height: 600px;

@@ -33,6 +33,11 @@ header {
     z-index: 999;
 }
 
+.logo-image {
+    height: 124px;
+    width: 211px;
+}
+
 /* скрываем чекбокс */
 #menu__toggle {
     opacity: 0;
