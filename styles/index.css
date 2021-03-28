@@ -1,6 +1,6 @@
 .main {
     padding: 0.5em 1em;
-    height: 600px;
+    height: 630px;
     background: #fff;
 }
 
@@ -39,7 +39,7 @@
 
 .connection-text {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     color: rgba(0, 31, 92, 1);
 }
 
