@@ -21,7 +21,7 @@
 .animation-content {
     display: flex;
     background: rgba(0, 30, 107, 1);
-    height: 270px;
+    height: 300px;
     justify-content: space-between;
     margin-top: 100px;
 }
@@ -29,27 +29,26 @@
 .animation-text {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 
 .gray-animation {
     width: 190px;
-    height: 70px;
+    height: 94px;
     background: rgba(168, 170, 191, 1);
     border-radius: 6px;
     margin-top: 20px;
 }
 
 .gray-text {
-    font-size: 10px;
+    font-size: 12px;
     color: rgba(255, 255, 255, 1);
-    padding-left: 5px;
     text-align: center;
 }
 
 .animation-image {
-    margin-top: 35px;
+    margin-top: 48px;
     margin-right: 5px;
 }
 
@@ -59,13 +58,22 @@
 
 @media (min-width: 0px) and (max-width: 359px) {
     .animation {
-        height: 350px;
+        height: 600px;
     }
 
     .gray-animation {
         width: 140px;
-        height: 90px;
+        height: 100px;
         margin-top: 10px;
+    }
+
+    .gray-text {
+        font-size: 11px;
+    }
+
+    .animation-image {
+        margin-top: 40px;
+        margin-right: 5px;
     }
 }
 
@@ -86,7 +94,8 @@
     .gray-animation {
         width: 300px;
         height: 100px;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-left: 50px;
     }
 
     .gray-text {
@@ -97,7 +106,7 @@
     }
 
     .animation-image {
-        margin-top: 70px;
+        margin-top: 50px;
         margin-right: 120px;
     }
 

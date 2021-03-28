@@ -39,7 +39,7 @@
 
 .first-txt {
     width: 351px;
-    height: 50px;
+    height: 53px;
 }
 
 .second-txt {
@@ -62,28 +62,28 @@
 @media (min-width: 0px) and (max-width: 359px) {
     .first-txt {
         width: 280px;
-        height: 47px;
+        height: 53px;
     }
     
     .second-txt {
         width: 265px;
-        height: 70px;
+        height: 85px;
     }
     
     .third-txt {
         width: 230px;
-        height: 44px;
+        height: 52px;
     }
     .trip-content {
-        height: 200px;
-        padding-top: 10px;
+        height: 270px;
+        padding-top: 20px;
     }
     .trip-image__img {
         width: 300px;
         height: 93px;
     }
     .trip {
-        height: 400px;
+        height: 600px;
     }
 }
 
@@ -115,7 +115,7 @@
     .trip-image__img {
         width: 400px;
         height: 124px;
-        margin-top: 15px;
+        margin-top: 0px;
     }
 
     .gradient-line {

@@ -98,6 +98,10 @@
         width: 300px;
         height: 54px;
     }
+
+    .center-title{
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -153,5 +157,9 @@
         margin: 0 auto;
         padding-top: 20px;
         margin-top: 12px;
+    }
+
+    .connection-area {
+        margin-top: 50px;
     }
 }

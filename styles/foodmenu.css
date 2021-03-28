@@ -90,7 +90,7 @@
     padding-top: 5px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 44px;
 }
 
 .delivery-link {
@@ -104,6 +104,10 @@
 
 .modal-title {
     color: #01188E;
+}
+
+.tortuga-image {
+    margin-top: 40px;
 }
 
 @media (min-width: 0px) and (max-width: 359px) {
@@ -141,7 +145,7 @@
     }
 
     .cafes {
-        height: 400px;
+        height: 590px;
     }
     
     .cafes-btn {

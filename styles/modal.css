@@ -27,6 +27,11 @@
     width: auto;
     margin: 10px;
 }
+
+.modal-content {
+    height: 400px;
+}
+
 @media (min-width: 576px) {
   .modal-dialog {
       max-width: 500px;

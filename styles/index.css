@@ -41,6 +41,28 @@
     text-align: center;
     font-size: 14px;
     color: rgba(0, 31, 92, 1);
+    white-space: nowrap;
+}
+
+.sale1-img {
+    width: 260px;
+    height: 80px;
+}
+
+.sale2-img {
+    width: 260px;
+    height: 161px;
+}
+
+.sale3-img {
+    width: 260px;
+    height: 161px;
+}
+
+@media (min-width: 0px) and (max-width: 359px) {
+    .connection-text {
+        font-size: 11px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
