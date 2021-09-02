@@ -1,3 +1,3 @@
 # SunValley
 
-mobile-first
+Mobile-first mode
